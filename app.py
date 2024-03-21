@@ -16,7 +16,7 @@ def generate_query_from_prompt(prompt):
 cluster_url = os.getenv("WORKSHOP_DEMO_URL")
 cluster_key = os.getenv("WORKSHOP_DEMO_KEY_ADMIN")
 COLLECTION_NAME = "Wikipedia"
-MAIN_COLUMN = "title"
+MAIN_COLUMN = "text"
 NAMED_VECTOR = "text_vector"
 INIT_QUERY = "Albert Einstein"
 
