@@ -23,12 +23,10 @@ INIT_QUERY = "Albert Einstein"
 
 GROUPED_TASK_INIT_PROMPT = "Describe how planes can fly, as you would to an 8-year old"
 GROUPED_TASK_INIT_QUERY = "aerodynamics flight"
-GROUPED_TASK_PROMPT_INIT_PREFIX = """
-    Generate a response using the included information.
-    If the provided text is insufficient, respond using pre-trained knowledge,
-    but add a note that the provided text does not contain the exact information
-    to answer the question.
-"""
+GROUPED_TASK_PROMPT_INIT_PREFIX = """Generate a response using the included information.
+If the provided text is insufficient, respond using pre-trained knowledge,
+but add a note that the provided text does not contain the exact information
+to answer the question."""
 
 SINGLE_PROMPT_INIT_PROMPT = "Turn this into a fun haiku: {title}"
 SINGLE_PROMPT_INIT_QUERY = "aerodynamics flight"
